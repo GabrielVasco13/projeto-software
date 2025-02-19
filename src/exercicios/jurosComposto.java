@@ -1,6 +1,7 @@
+package exercicios;
 import java.util.Scanner;
 
-public class main {
+public class jurosComposto {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
