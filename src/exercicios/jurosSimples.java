@@ -16,9 +16,12 @@ public class jurosSimples {
 		System.out.println("Digite a qnt de meses");
 		double t = entrada.nextDouble();
 		
-		double juros = c * i * t;
+		double juros = c * (i / 100) * t;
+		
+		double montanteTotal = juros + c;
 			
 		System.out.println("O valor do juros deu: " + juros);
+		System.out.println("E o montante final deu: " + montanteTotal);
 		entrada.close();
 
 	}
