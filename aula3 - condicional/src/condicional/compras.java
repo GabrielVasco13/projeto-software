@@ -28,6 +28,9 @@ public class compras {
 			
 		case 3:
 			System.out.println("sua compra deu R$" + vc);
+			System.out.println("2 - 2x, 5% de juros");
+			System.out.println("3 - 3x, 10% de juros");
+			int mpr = sc.nextInt();
 			break;
 		default:
 			System.out.println("opção inválida");
