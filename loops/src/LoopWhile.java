@@ -9,22 +9,27 @@ public class LoopWhile {
 		String senhaSalva = "admin";
 		String login = "";
 		String senha = "";
-	
-	while (true){
 		
+		int tentativas = 0;
 	
-	System.out.println("Digite seu login:");
-	login = sc.nextLine();
-	System.out.println("Digite sua senha:");
-	senha = sc.nextLine();
+	while (tentativas <= 5) {
+		System.out.println("Digite seu login:");
+		login = sc.nextLine();
+		System.out.println("Digite sua senha:");
+		senha = sc.nextLine();
 	
-	if (login.equals(LoginSalvo)&& senha.equals(senhaSalva)) {
-	System.out.println("Acesso liberado");
-	break;
+		if (login.equals(LoginSalvo)&& senha.equals(senhaSalva)) {
+			System.out.println("Acesso liberado");
+			break;
+		} else {
+			tentativas++;
+			System.out.println("Acesso negado, tente novamente");
+			}
+		
+		if (tentativas == 5) {
+			System.out.println("BANIDO");
+			break;
+			}
+		}	
 	}
-	else {System.out.println("Acesso negado, tente novamente ");
-	}
-	}
-	}
-	
 }
