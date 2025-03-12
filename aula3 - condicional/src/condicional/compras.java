@@ -36,8 +36,5 @@ public class compras {
 			System.out.println("opção inválida");
 			break;
 		}
-		
-		
-		
 	}
 }
