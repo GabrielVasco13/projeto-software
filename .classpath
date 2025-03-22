@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="aula1/src"/>
+	<classpathentry kind="src" path="aula3 - condicional/src"/>
+	<classpathentry kind="src" path="loops/src"/>
+	<classpathentry kind="output" path="aula3 - condicional/bin"/>
+</classpath>
