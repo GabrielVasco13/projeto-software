@@ -6,6 +6,7 @@ public class MediaNums {
 
 	public static void main(String[] args) {
 		 Scanner sc = new Scanner(System.in);
+		 
 	     int soma = 0, quantidade = 0, numero;
 	     do {
 	    	 System.out.print("Digite um número (0 para sair): ");
