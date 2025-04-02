@@ -23,5 +23,10 @@ public class Livro {
 		this.quantidade += quantidade;
 	}
 	
+	public double valorTotal() {
+		double valorTotalLivros = quantidade * valorUnit;
+		return valorTotalLivros;
+	}
+	
 	
 }
