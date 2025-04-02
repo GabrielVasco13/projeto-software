@@ -15,10 +15,13 @@ public class Livro {
 				"\nValorUnit: " + valorUnit;
 	}
 	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+	public void emprestaLivro(int quantidade) {
+		this.quantidade -= quantidade;
 	}
+	
+	public void devolveLivro(int quantidade) {
+		this.quantidade += quantidade;
+	}
+	
 	
 }
